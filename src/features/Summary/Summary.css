@@ -1,0 +1,53 @@
+.summary {
+    background-color: black;
+}
+
+.summary-container {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.summary-row {
+    flex:1 1 100%;
+    display: flex;
+}
+
+.summary-item {
+    display: flex;
+    flex: 1 1 100%;
+}
+
+.summary-text {
+    color: white;
+    height: 10rem;
+    padding: 1rem;
+}
+
+.dev-img {
+    background-image: url('../../images/developerdesign.png');
+    background-size: contain;
+    width: 5rem;
+    height: 5rem;
+}
+
+.resp-img {
+    background-image: url('../../images/responsivedesign.png');
+    background-size: contain;
+    width: 5rem;
+    height: 5rem;
+}
+
+.inov-img {
+    background-image: url('../../images/innovativesolutions.png');
+    background-size: contain;
+    width: 5rem;
+    height: 5rem;
+}
+
+.pas-img {
+    background-image: url('../../images/passion.png');
+    background-size: contain;
+    width: 5rem;
+    height: 5rem;
+}

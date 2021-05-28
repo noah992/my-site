@@ -1,0 +1,27 @@
+.logo {
+    display: flex;
+    padding-top: 1rem;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.icon {
+    flex:1;
+}
+
+.nav {
+    flex: 6;
+    justify-content: flex-end;
+    padding-right: 2rem;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav li {
+    padding: 0.2rem;
+}
+
+.nav h4 {
+    color: white;
+}

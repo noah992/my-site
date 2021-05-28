@@ -1,0 +1,41 @@
+.contact {
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-title,
+.contact-number {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-title {
+    padding-top: 3rem;
+}
+
+.contact-form {
+    display: flex;
+    padding: 1rem 4rem;
+    color: white;
+}
+
+.contact-column {
+    flex: 1 1 100%;
+}
+
+.reaching,
+.contact-info {
+    padding: 2rem;
+}
+
+.contact-info p {
+    margin-bottom: 0.2rem;
+}
+
+.form-btn {
+    margin-top: 2rem;
+    padding-top: 2rem;
+}

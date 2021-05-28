@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing: inherit
+}
+
+html{
+    font-size: 100%;
+}
+
+body{
+    font-size: 1.6rem;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+ul,
+ol {
+    list-style-position: inside;
+    list-style: none;
+}
+
+li {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+input,
+button {
+    outline: none;
+    border: none;
+}
+
+button {
+    cursor: pointer;
+    background-color: white;
+}
+
+button:hover {
+    color: var(--color-grey-dark);
+}
+
+.scroll-bar {
+    scrollbar-width: none;
+}
+.scroll-bar::-webkit-scrollbar {
+    display:none;
+}
+.scroll-bar {
+    overflow: scroll;
+    -ms-overflow-style: none;
+}

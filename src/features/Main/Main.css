@@ -1,0 +1,42 @@
+.main {
+    background-image: url('../../images/apple-1838564_1920-main.jpg');
+    background-repeat: no-repeat;
+    background-size: 100rem;
+    height: 50rem;
+}
+
+.main-opacity {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.hello,
+.xxx,
+.uid {
+    color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.hello {
+    padding-top: 10rem;
+}
+
+.xxx,
+.uid {
+    padding-top: 2rem;
+}
+
+.main-container {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.port-btn,
+.info-btn {
+    padding: 1rem;
+}

@@ -1,0 +1,77 @@
+.about,
+.about-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.about {
+    background-attachment:fixed;
+    background-image: url('../../images/aboutbackground.jpg');
+    background-size: 40rem;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.bg-img {
+    background: rgba(230, 230, 230, 0.9);
+    height: 100%;
+}
+
+.about-me {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.sharing-a p {
+    font-style: italic;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 2rem 0 5rem;
+}
+
+.general-overview {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.general-overview p {
+    width: 50rem;
+}
+
+.statistics {
+    padding: 1rem 0;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.statistics p {
+    padding: 0.1rem 0;
+    margin-bottom: 0.1rem;
+    width: 50rem;
+}
+
+.contact-btn {
+    padding: 1rem 0;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.form-container {
+    display: flex;
+}
+
+.form-name {
+    flex: 1 1 100%;
+    padding-right: 1rem;
+}
