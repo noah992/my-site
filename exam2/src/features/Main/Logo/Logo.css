@@ -1,11 +1,22 @@
 .logo {
     display: flex;
     padding-top: 1rem;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.icon-container {
+    flex:1;
+    padding-left: 2rem;
 }
 
 .icon {
-    flex:1;
+    background-image: url('../../../images/logo.svg');
+    background-repeat: no-repeat;
+    height: 3rem;
+    width: 3rem;
 }
 
 .nav {
@@ -16,12 +27,24 @@
 
 .nav ul {
     display: flex;
+    padding-right: 1rem;
 }
 
 .nav li {
-    padding: 0.2rem;
+    padding: 0.8rem;
+    font-family:'Times New Roman', Times, serif;
 }
 
-.nav h4 {
+.nav h6 {
     color: white;
+}
+
+@media (max-width:700px) {
+    .icon-container {
+        flex: 1;
+    }
+
+    .nav {
+        flex: 3;
+    }
 }

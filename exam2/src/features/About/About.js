@@ -6,6 +6,7 @@ export default class About extends React.Component {
     render() {
         return (
             <div className='about'>
+                <a name='about'></a>
                 <div className='bg-img'>
                 <div className='about-container'>
                     <div className='row-about'>
@@ -49,7 +50,7 @@ export default class About extends React.Component {
                     </div>
                     <div className='row-about'>
                         <div className='contact-btn'>
-                            <a href='#'><Button variant="outline-secondary">Contact</Button></a>
+                            <a href='#contact'><Button variant="outline-secondary">Contact</Button></a>
                         </div>
                     </div>
                 </div>

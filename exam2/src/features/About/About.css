@@ -13,6 +13,13 @@
 
 }
 
+.row-about {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
 .bg-img {
     background: rgba(230, 230, 230, 0.9);
     height: 100%;
@@ -34,34 +41,35 @@
 }
 
 .general-overview {
-    justify-content: center;
-    text-align: center;
-    align-items: center;
     display: flex;
     flex-direction: column;
+    width: 50rem;
+}
+
+.general-overview h3,
+.statistics h3 {
+    text-align: left;
 }
 
 .general-overview p {
-    width: 50rem;
+    text-align: left;
 }
 
 .statistics {
     padding: 1rem 0;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
     display: flex;
     flex-direction: column;
+    width: 50rem;
 }
 
 .statistics p {
     padding: 0.1rem 0;
     margin-bottom: 0.1rem;
-    width: 50rem;
+    text-align: left;
 }
 
 .contact-btn {
-    padding: 1rem 0;
+    padding: 1rem 0 3rem;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -74,4 +82,10 @@
 .form-name {
     flex: 1 1 100%;
     padding-right: 1rem;
+}
+
+@media (max-width:900px) {
+    .row-about {
+        padding: 0 3rem;
+    }
 }

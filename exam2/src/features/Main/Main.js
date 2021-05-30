@@ -14,7 +14,7 @@ export default class Main extends React.Component {
                 </div>
                 <div className='main-row'>
                     <div className='xxx'>
-                        <h3>XXXX</h3>
+                        <p>XXXX</p>
                     </div>
                 </div>
                 <div className='main-row'>
@@ -25,10 +25,10 @@ export default class Main extends React.Component {
                 <div className='main-row'>
                     <div className='main-container'>
                         <div className='info-btn'>
-                            <a href='#'><Button variant="outline-light">Info</Button></a>
+                            <a href='#about'><Button variant="outline-light">Info</Button></a>
                         </div>
                         <div className='port-btn'>
-                            <a href='#'><Button variant="outline-light">Portfolio</Button></a>
+                            <a href='#projects'><Button variant="outline-light">Portfolio</Button></a>
                         </div>
                     </div>
                 </div>

@@ -5,6 +5,7 @@ import Summary from '../Summary/Summray';
 import Projects from '../Projects/Projects';
 import Main from '../Main/Main';
 import Contact from '../Contact/Contact';
+import Footer from '../Footer/Footer';
 
 
 export default class Layout extends React.Component {
@@ -16,6 +17,7 @@ export default class Layout extends React.Component {
                 <Summary></Summary>
                 <Projects></Projects> 
                 <Contact></Contact>
+                <Footer></Footer>
             </>
         )
     }

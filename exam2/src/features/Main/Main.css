@@ -1,6 +1,7 @@
 .main {
     background-image: url('../../images/apple-1838564_1920-main.jpg');
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: 100rem;
     height: 50rem;
 }
@@ -39,4 +40,8 @@
 .port-btn,
 .info-btn {
     padding: 1rem;
+}
+
+.xxx p{
+    font-size: 5rem;
 }

@@ -1,0 +1,149 @@
+.footer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.footer-sns {
+    display: flex;
+    padding:0 15rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.footer-fb-container,
+.footer-in-container,
+.footer-pi-container,
+.footer-em-container {
+    padding: 0 2rem;
+}
+
+.footer-fb {
+    background-image: url('../../images/facebook.svg');
+    background-color: darkgray;
+    background-size: cover;
+    width: 2rem;
+    height: 2rem;
+    border: 1px inset darkgray;
+}
+
+.footer-in {
+    background-image: url('../../images/linkedin.svg');
+    background-color: darkgray;
+    background-size: cover;
+    width: 2rem;
+    height: 2rem;
+    border: 1px inset darkgray;
+}
+
+.footer-pi {
+    background-image: url('../../images/pinterest.svg');
+    background-color: darkgray;
+    background-size: cover;
+    width: 2rem;
+    height: 2rem;
+    border: 1px inset darkgray;
+}
+
+.footer-em {
+    background-image: url('../../images/email.svg');
+    background-color: darkgray;
+    background-size: cover;
+    width: 2rem;
+    height: 2rem;
+    border: 1px inset darkgray;
+}
+
+.footer-contact {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.footer-phone,
+.footer-email {
+    padding: 2rem;
+}
+
+.footer-menu {
+    display: flex;
+    padding-top: 2rem;
+}
+
+.footer-copy {
+    flex: 4;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.footer-copy p {
+    margin-bottom: 0.1rem;
+}
+
+.footer-nav {
+    flex: 6;
+    display: flex;
+}
+
+.footer-col {
+    flex: 1 1 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.footer-col ul {
+    padding-left: 0;
+    padding-top: 1rem;
+}
+
+.footer-col li {
+    font-size: 0.8rem;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:active {
+    color:darkgray;
+}
+
+.footer a:hover {
+    color: rgb(220, 220, 220);
+}
+
+@media (max-width:900px) {
+    .footer-menu {
+        flex-direction: column;
+    }
+
+    .footer-copy,
+    .footer-nav {
+        flex: 1 1 100%
+    }
+
+    .footer-copy {
+        display: flex;
+    }
+
+    .copy-container {
+        display: flex;
+    }
+
+    .copy-container p {
+        flex: 1 1 100%;
+        padding: 0 1rem;
+    }
+
+    .footer-nav {
+        padding-top: 2rem;
+    }
+}

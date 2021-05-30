@@ -6,6 +6,7 @@ export default class Projects extends React.Component {
     render() {
         return (
             <div className='projects'>
+                <a name='projects'></a>
                 <div className='projects-row'>
                     <div className='projects-title'>
                         <h3>Projects and Portfolio</h3>
@@ -32,10 +33,10 @@ export default class Projects extends React.Component {
                         </div>
                         <div className='projects-card' id='fl'>
                             <div className='projects-opacity'>
-                                <h4>LUV TALK Website</h4>
+                                <h4>Personal Website</h4>
                                 <p>
-                                Website, created during my first internship, 
-                                which utilized HTML, CSS, PHP, Ajax, Javascript/jQuery, and Wordpress.
+                                Enjoyable side project that was created to expriment with more HTML and CSS, 
+                                but also progided an oujtlet to showcase my abilities and interests.
                                 </p>
                                 <div className='projects-btn'>
                                     <a href='#'><Button variant="outline-light">More</Button></a>
@@ -44,10 +45,11 @@ export default class Projects extends React.Component {
                         </div>
                         <div className='projects-card' id='mlb'>
                             <div className='projects-opacity'>
-                                <h4>LUV TALK Website</h4>
+                                <h4>Strike Zone Analysis</h4>
                                 <p>
-                                Website, created during my first internship, 
-                                which utilized HTML, CSS, PHP, Ajax, Javascript/jQuery, and Wordpress.
+                                Data analytics project completed during my time at the illiois Math and 
+                                Science Academy which studuied the baseball strike zone based on the 
+                                state of the game.
                                 </p>
                                 <div className='projects-btn'>
                                     <a href='#'><Button variant="outline-light">More</Button></a>

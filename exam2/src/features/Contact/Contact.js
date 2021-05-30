@@ -7,6 +7,7 @@ export default class Contact extends React.Component {
     render() {
         return (
             <div className='contact'>
+              <a name='contact'></a>
                 <div className='contact-title'>
                     <h2>Contact</h2>
                 </div>
@@ -35,32 +36,32 @@ export default class Contact extends React.Component {
                     </div>
                     <div className='contact-column'>
                     <Form className='test'>
+                      <div className='form-container'>
+                      <Form.Group controlId="formGridAddress1" className='form-name'>
+                        <Form.Label>First Name*</Form.Label>
+                        <Form.Control placeholder="First Name" />
+                      </Form.Group>
+                      <Form.Group controlId="formGridAddress1" className='form-name'>
+                        <Form.Label>Last Name*</Form.Label>
+                        <Form.Control placeholder="Last Name" />
+                      </Form.Group>
+                      </div>
+                      <Form.Group controlId="formGridEmail" className='form-name'>
+                          <Form.Label>Email*</Form.Label>
+                          <Form.Control type="email" placeholder="Enter email" />
+                        </Form.Group>
 
+                        <Form.Group controlId="exampleForm.ControlTextarea1" className='form-name'>
+                          <Form.Label>Message*</Form.Label>
+                          <Form.Control as="textarea" rows={3} />
+                        </Form.Group>
 
-  <div className='form-container'>
-  <Form.Group controlId="formGridAddress1" className='form-name'>
-    <Form.Label>First Name*</Form.Label>
-    <Form.Control placeholder="First Name" />
-  </Form.Group>
-  <Form.Group controlId="formGridAddress1" className='form-name'>
-    <Form.Label>Last Name*</Form.Label>
-    <Form.Control placeholder="Last Name" />
-  </Form.Group>
-  </div>
-  <Form.Group controlId="formGridEmail" className='form-name'>
-      <Form.Label>Emai*</Form.Label>
-      <Form.Control type="email" placeholder="Enter email" />
-    </Form.Group>
-
-  <Form.Group controlId="formGridAddress2" className='form-name'>
-    <Form.Label>Message*</Form.Label>
-    <Form.Control placeholder="Message" />
-  </Form.Group>
-
-  <Button variant="primary" type="submit" className='form-btn'>
-    Submit
-  </Button>
-</Form>
+                      <div className='form-btn'>
+                        <Button variant="outline-light">
+                          Submit
+                        </Button>
+                      </div>
+                    </Form>
                     </div>
                 </div>
             </div>
