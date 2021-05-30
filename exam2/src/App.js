@@ -9,6 +9,7 @@ import componentWrapper from './utils/componentWrapper';
 import { BrowserRouter as Router } from "react-router-dom";
 
 export const sum = (a, b) => {
+  console.log('features/test');
   return a + b
 }
 
